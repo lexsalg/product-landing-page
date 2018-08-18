@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible"
+            content="ie=edge">
+      <title>Product Landing Page</title>
+      <link rel="shortcut icon"
+            href="favicon.ico"
+            type="image/x-icon">
+      <link rel="icon"
+            href="favicon.ico"
+            type="image/x-icon">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+            rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bulma-extensions@2.2.1/bulma-pricingtable/dist/css/bulma-pricingtable.min.css"
+            rel="stylesheet">
+      <link href="styles.css"
+            rel="stylesheet">
+      <script defer
+              src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+
+<body>
+      <header id="header"
+              class="wd-full">
+            <div class="logo">
+                  <img id="header-img"
+                       src="logo.png"
+                       alt="logo" />
+            </div>
+            <nav id="nav-bar">
+                  <ul>
+                        <li><a class="nav-link"
+                                 href="#features">Inicio </a></li>
+                        <li><a class="nav-link"
+                                 href="#how-it-works">Características</a></li>
+                        <li><a class="nav-link"
+                                 href="#pricing">Precios</a></li>
+                  </ul>
+            </nav>
+      </header>
+
+      <div class="container">
+
+            <h1 id="features">Venta de Productos</h1>
+            <form id="form"
+                  action="https://www.freecodecamp.com/email-submit">
+
+
+                  <div class="field">
+                        <div class="control has-icons-left has-icons-right">
+                              <input class="input"
+                                     id="email"
+                                     type="email"
+                                     name="email"
+                                     placeholder="Ingrese su Email"
+                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                     required>
+                              <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                              </span>
+                              <span class="icon is-small is-right">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                              </span>
+                        </div>
+                  </div>
+
+                  <div class="field wd-full">
+                        <div class="control wd-full">
+                              <input id="submit"
+                                     type="submit"
+                                     value="Inicio"
+                                     class="button is-link wd-full"></input>
+                        </div>
+                  </div>
+
+
+
+            </form>
+            <section id="how-it-works">
+                  <iframe id="video"
+                          height="400"
+                          width="720"
+                          src="https://www.youtube.com/embed/SQ53hHKu0hI?rel=0&amp;controls=0&amp;showinfo=0"
+                          frameborder="0"
+                          allowfullscreen></iframe>
+            </section>
+
+            <div class="pricing-table wd-full"
+                 id="pricing">
+                  <div class="pricing-plan is-primary">
+                        <div class="plan-header">Starter</div>
+                        <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>20</span>/month</div>
+                        <div class="plan-items">
+                              <div class="plan-item">20GB Storage</div>
+                              <div class="plan-item">100 Domains</div>
+                              <div class="plan-item">-</div>
+                              <div class="plan-item">-</div>
+                        </div>
+                        <div class="plan-footer">
+                              <button class="button is-fullwidth">Current plan</button>
+                        </div>
+                  </div>
+
+                  <div class="pricing-plan is-warning">
+                        <div class="plan-header">Startups</div>
+                        <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>40</span>/month</div>
+                        <div class="plan-items">
+                              <div class="plan-item">20GB Storage</div>
+                              <div class="plan-item">25 Domains</div>
+                              <div class="plan-item">1TB Bandwidth</div>
+                              <div class="plan-item">-</div>
+                        </div>
+                        <div class="plan-footer">
+                              <button class="button is-fullwidth">Choose</button>
+                        </div>
+                  </div>
+
+                  <div class="pricing-plan is-danger">
+                        <div class="plan-header">Enterprise</div>
+                        <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>100</span>/month</div>
+                        <div class="plan-items">
+                              <div class="plan-item">2TB Storage</div>
+                              <div class="plan-item">100 Domains</div>
+                              <div class="plan-item">1TB Bandwidth</div>
+                              <div class="plan-item">1000 Email Boxes</div>
+                        </div>
+                        <div class="plan-footer">
+                              <button class="button is-fullwidth">Choose</button>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>

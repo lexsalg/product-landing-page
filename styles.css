@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Roboto|Exo');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.container {
+  top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+#how-it-works,
+#form {
+  margin: 24px;
+}
+
+.wd-full {
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  min-height: 64px;
+  background-color: #eee;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+nav,
+ul,
+.logo {
+  display: flex;
+}
+
+img,
+nav {
+  align-self: center;
+}
+
+ul {
+  width: 35vw;
+  justify-content: space-around;
+}
+@media (max-width: 650px) {
+  ul {
+    flex-direction: column;
+  }
+}
